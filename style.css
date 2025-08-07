@@ -1,0 +1,282 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: #58e0f7;
+	background-image: url('obrazki/christmas-colour.png'); /*tło pochodzi ze strony www.toptal.com/designers/subtlepatterns/ */
+}
+
+.tresc
+{
+	text-align: justify;
+	font-size: 20px;
+	background-color: #F9F2F9;
+	padding: 30px;
+	margin: 20px;
+}
+
+#stupek
+{
+
+	text-align: center;
+	background-color: #A9FB8B;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#menu
+{
+	background-color: #A9FB8B;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 100;
+}
+
+#conteiner
+{
+	margin-top: 40px;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.nagluwek>h1
+{
+	font-size: 50px;
+}
+.rysunek
+{
+	text-align: center;
+}
+
+.obrazek1
+{
+	border-radius:15px ;
+	height:300px;
+}
+
+ol
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	height: 30px;
+	line-height: 200%;
+	display: inline-block;
+}
+ol a
+{
+	display: block;
+	margin-left: 20px;
+	margin-right: 20px;	
+}
+ol>li
+{
+	float: left;
+	padding-left: 0px;
+	padding-right: 0px;
+	
+}
+ol>li:hover
+{
+	background-color: #98EA7A;
+}
+
+ol>li>ul
+{
+	list-style-type: none;
+	padding:0px;
+	margin: 0px;
+	opacity: 0;	
+
+}
+
+ol>li:hover>ul
+{
+	opacity: 1;
+}
+
+ol>li>ul>li 
+{
+	background-color: #98EA7A;
+	z-index: 100000;
+
+}
+
+
+ol>li>ul>li:hover
+{
+	background-color: #87D969;
+	
+}
+
+.obrazek2
+{
+	
+	border-radius: 20px;
+	height: 200px;
+	
+}
+.rug
+{
+	padding-right: 15px;
+	padding-bottom: 10px;
+	float: left;
+}
+
+a:link
+{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover
+{
+	text-decoration: none;
+	color: white;
+}
+
+a:visited
+{
+	text-decoration: none;
+	color: black;
+}
+
+.link1:link
+{
+	text-decoration: underline;
+	color: blue;
+}
+
+.link1:hover
+{
+	text-decoration: underline;
+	color: balck;
+	background-color: white;
+}
+
+.link1:visited
+{
+	text-decoration: underline;
+	color: purple;
+}
+
+.kawelk1
+{
+	background-color:#A9FB8B;
+	width: 48%;
+	margin: 1%;
+	float: left;
+	text-align: center;
+	padding-top: 78px;
+	padding-bottom: 78px;
+	border-radius: 15px;
+	
+}
+
+.czysc
+{
+	clear: both;
+}
+
+.kawelk2
+{
+	background-color:#A9FB8B;
+	padding-bottom:64px;
+	padding-top: 64px;
+	width: 98%;
+	margin: 1%;
+	text-align: center; 
+	border-radius: 15px;
+}
+
+.kawelk3
+{
+	background-color:#A9FB8B;
+	width: 48%;
+	margin: 1%;
+	float: left;
+	text-align: center;
+	padding-top: 220px;
+	padding-bottom: 220px;
+	border-radius: 15px;
+	
+}
+
+
+.kawelk2:hover
+{
+	background-color:#98EA7A;
+	color: white;
+}
+
+.kawelk1:hover
+{
+	background-color:#98EA7A;
+	color: white;
+	
+}
+
+.kawelk3:hover
+{
+	background-color: #98EA7A;
+	color: white;
+}
+
+.ramka
+{
+	width: 80%;
+	text-align: center;
+}
+
+.ramka iframe
+{
+	height: 210px;
+	width: 300px;
+	border: 2px;
+	border-style: dotted;
+	border-color: #58E0F7;
+}
+
+
+.opcja
+{
+	float: left;
+	background-color: #A9FB8B;
+	padding: 10px;
+	margin: 5px;
+	width: 20%;
+	transform: translateX(115%);
+	-webkit-transform: translateX(115%);
+	
+}
+
+
+.opcja:hover
+{
+	background-color: #98EA7A;
+}
+
+video
+{
+	height: 300px;
+}
+
+#zegar
+{
+	width: 10%;
+	background-color: #A9FB8B;
+	height: 50px;
+	position: absolute;
+	top: 150px;
+	left: 5px;
+	padding: 5px;
+}
